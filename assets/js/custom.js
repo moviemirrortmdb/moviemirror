@@ -63,7 +63,6 @@
       "[data-target]",
       function (e) {
         if (select(this.dataset.target)) {
-          console.log("TARGET: ", this.dataset.target);
           e.preventDefault();
           scrollto("#" + this.dataset.target);
           /*
