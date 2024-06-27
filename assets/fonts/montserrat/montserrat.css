@@ -1,23 +1,5 @@
 @font-face {
   font-family: "Montserrat";
-  font-weight: 500;
-  font-style: italic;
-  src: local("Montserrat Medium Italic"), local("Montserrat-MediumItalic"),
-    url("Montserrat-MediumItalic.woff") format("woff"),
-    url("Montserrat-MediumItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: normal;
-  font-style: italic;
-  src: local("Montserrat Italic"), local("Montserrat-Italic"),
-    url("Montserrat-Italic.woff") format("woff"),
-    url("Montserrat-Italic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
   font-weight: normal;
   font-style: normal;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
@@ -27,11 +9,11 @@
 
 @font-face {
   font-family: "Montserrat";
-  font-weight: 100;
+  font-weight: normal;
   font-style: italic;
-  src: local("Montserrat Thin Italic"), local("Montserrat-ThinItalic"),
-    url("Montserrat-ThinItalic.woff") format("woff"),
-    url("Montserrat-ThinItalic.ttf") format("truetype");
+  src: local("Montserrat Italic"), local("Montserrat-Italic"),
+    url("Montserrat-Italic.woff") format("woff"),
+    url("Montserrat-Italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -72,54 +54,9 @@
 
 @font-face {
   font-family: "Montserrat";
-  font-weight: 900;
-  font-style: italic;
-  src: local("Montserrat Black Italic"), local("Montserrat-BlackItalic"),
-    url("Montserrat-BlackItalic.woff") format("woff"),
-    url("Montserrat-BlackItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-style: italic;
-  src: local("Montserrat SemiBold Italic"), local("Montserrat-SemiBoldItalic"),
-    url("Montserrat-SemiBoldItalic.woff") format("woff"),
-    url("Montserrat-SemiBoldItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-style: italic;
-  src: local("Montserrat Bold Italic"), local("Montserrat-BoldItalic"),
-    url("Montserrat-BoldItalic.woff") format("woff"),
-    url("Montserrat-BoldItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 300;
-  font-style: italic;
-  src: local("Montserrat Light Italic"), local("Montserrat-LightItalic"),
-    url("Montserrat-LightItalic.woff") format("woff"),
-    url("Montserrat-LightItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
   font-weight: 600;
   font-style: normal;
   src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
     url("Montserrat-SemiBold.woff") format("woff"),
     url("Montserrat-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 100;
-  font-style: normal;
-  src: local("Montserrat Thin"), local("Montserrat-Thin"),
-    url("Montserrat-Thin.woff") format("woff"),
-    url("Montserrat-Thin.ttf") format("truetype");
 }

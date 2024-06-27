@@ -46,7 +46,7 @@
       if (!header.classList.contains("header-scrolled")) {
         offset -= 16;
       }
-        */
+      */
 
       let elementPos = select(el).offsetTop;
       window.scrollTo({
@@ -73,7 +73,7 @@
             navbarToggle.classList.toggle("bi-list");
             navbarToggle.classList.toggle("bi-x");
           }
-            */
+          */
         }
       },
       true
@@ -98,10 +98,10 @@
     /**
      * Header / Navbar BG / COLOR change on scroll
      */
-    const navbar = select("#header .navbar");
+    const navbar = select("header .navbar");
     if (navbar) {
       const tglHdClass = () => {
-        if (window.scrollY > window.innerHeight / 2) {
+        if (window.scrollY > window.innerHeight / 3) {
           navbar.classList.remove("bg-dark");
           navbar.classList.add("bg-primary");
         } else {
