@@ -113,15 +113,31 @@
       onscroll(document, tglHdClass);
     }
 
-    /**
-     * Scroll with offset on page load with hash links in the url
-     */
     window.addEventListener("load", () => {
+      /**
+       * Scroll with offset on page load with hash links in the url
+       */
       if (window.location.hash) {
         if (select(window.location.hash)) {
           scrollto(window.location.hash);
         }
       }
+      /**
+       * Bootstrap Carousel
+       */
+      /*
+      const carousel = document.querySelector(".carousel-movies");
+      if (carousel) {
+        const c = new bootstrap.Carousel(carousel, {
+          touch: false,
+          wrap: true,
+          ride: true,
+          interval: 5000,
+        });
+        alert("Crsl");
+        console.log(c);
+      }
+        */
     });
   });
 })();
