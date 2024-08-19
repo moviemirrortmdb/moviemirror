@@ -1,0 +1,112 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e6ecf9;
+  color: #202020;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+nav ul {
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px !important;
+}
+
+nav ul li {
+  padding: 5px 25px !important;
+  border: 0 none !important;
+  border-right: 2px solid #903030 !important;
+  border-radius: 0 !important;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+nav ul li a {
+  padding: 5px;
+}
+
+nav ul li:last-child {
+  border-right: 0 none !important;
+  border-bottom: 0 none !important;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #202020;
+}
+
+nav a:hover {
+  color: #705050;
+}
+
+a img {
+  display: inline-block;
+  transition: transform 0.25s ease-in-out;
+}
+
+a:hover img {
+  transform: scale(1.25);
+}
+
+a span {
+  padding-right: 5px;
+}
+
+a img + span {
+  margin-left: 10px;
+}
+
+a img.vue-logo + span {
+  margin-left: 20px;
+}
+
+img.ng-logo {
+  height: 65px !important;
+}
+
+img.vue-logo {
+  margin: 8px 5px;
+  height: 50px !important;
+}
+
+.list-custom {
+  flex-direction: row;
+}
+
+.list-custom li {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  .list-custom {
+    flex-direction: column;
+  }
+
+  .list-custom li {
+    padding: 25px 5px !important;
+    border-right: 0 none !important;
+    border-bottom: 2px solid #903030 !important;
+  }
+}
